@@ -5,7 +5,7 @@
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
 
 ## Aim :
-    To create a bayesian Network for the given dataset in Python
+To create a bayesian Network for the given dataset in Python
 ## Algorithm:
 Step 1:Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
 Step 2:Set pandas options to display more columns<br/>
@@ -115,11 +115,13 @@ print(probs(df, child='WindGustSpeedCat'))
 print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
 ```
 ## Output:
-![1OUT](https://github.com/user-attachments/assets/b76c1b66-b774-4abe-ae32-b8bfd4defa75)
 
-![OUT2](https://github.com/user-attachments/assets/3f145af9-61d1-4326-b3c6-5e6d4e90d14c)
+![11](https://github.com/user-attachments/assets/b9be479a-9908-4425-9032-cab0f9281512)
+
+![12](https://github.com/user-attachments/assets/9213cfc6-6fec-406b-a301-17aa20c94e19)
+
 
 
 ## Result:
-   Thus a Bayesian Network is generated using Python
+   Thus a Bayesian Network is generated using Python successfully.
 
